@@ -5,16 +5,16 @@ import Footer from '../components/Footer'
 function About() {
   return (
   <div>
-      <div className="mb-28 mt-20"> 
+      <div className="mb-16 mt-20"> 
 
 <div className="flex flex-col gap-y-12 lg:flex-row justify-center gap-x-20">
   <div className="animate-fade-right animate-delay-300">
    <img src={laptop} alt="munashedev" 
-   className="max-w-sm md:max-w-lg lg:max-w-lg mx-auto lg:mx-0 rounded-md"
+   className="max-w-[90%] md:max-w-lg lg:max-w-lg mx-auto lg:mx-0 rounded-md"
    />
   </div> 
 
-  <div className="max-w-sm md:max-w-lg lg:max-w-lg mx-auto animate-fade-left animate-delay-500 space-y-4 lg:mx-0">
+  <div className="max-w-[90%] md:max-w-lg lg:max-w-lg mx-auto animate-fade-left animate-delay-500 space-y-4 lg:mx-0">
     <h1 className="text-center text-lg font-bold text-blue-600">ABOUT ME</h1> 
 
     <h1 className="text-center text-xl font-bold">An Africa-based Full Stack Developer with a strong commitment to their work.</h1>
