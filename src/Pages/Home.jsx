@@ -3,11 +3,13 @@ import munashe from '../images/muna.png';
 import { BsGithub } from 'react-icons/bs';
 import { FiInstagram } from 'react-icons/fi';
 import { Logos } from '../data/Logo';
+import Footer from '../components/Footer';
 
 function Home() {
   return (
-    <div className="mb-9">
-      <div className="gap-x-20 lg:gap-x-28 mx-6 flex flex-col gap-y-11 items-center justify-center my-12 md:flex-row-reverse">
+   <div>
+     <div className="mb-9">
+      <div className="gap-x-20 lg:py-2 lg:gap-x-28 mx-6 flex flex-col gap-y-11 items-center justify-center my-12 md:flex-row-reverse">
 
         <img src={munashe} alt="munashe"
           className="w-64 lg:w-80 bg-gray-200 border to-white-400 rounded-full lg:rounded-md animate-fade-left animate-delay-700"
@@ -24,17 +26,21 @@ function Home() {
         </div>
       </div>
 
-      <div className="mt-8 flex flex-col items-center gap-y-3 animate-fade-down animate-delay-1000">
+      <div className=" flex flex-col items-center gap-y-3 animate-fade-up animate-delay-700">
         <h1 className="text-center text-xl font-bold">Tech Stack</h1>
-        <div className="grid grid-cols-6 justify-items-center gap-3">
+        <div className="grid grid-cols-4 md:grid-cols-6 justify-items-center gap-3">
           {Logos.map((item) => (
             <div key={item.name}>
-              <img src={item.image} alt={item.name} />
+              <img src={item.image} alt={item.name} /> 
             </div>
           ))}
+          <h1 className="lg:py-5"></h1>
         </div>
       </div>
     </div>
+
+    <Footer/>
+   </div>
   );
 }
 

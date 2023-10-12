@@ -5,6 +5,7 @@ import { useContext } from 'react'
 import { Pages } from '../store/Pages' 
 import { Link, useLocation } from 'react-router-dom'
 
+
 function Navbar() {
 
 const {open, Toggle} = useContext(Pages) 
