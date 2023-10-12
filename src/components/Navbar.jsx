@@ -17,7 +17,7 @@ const navLinks = [
    {url: "Contact", path: "/contact"}]
 
   return (
-    <div> 
+    <div className="shadow pb-1 md:shadow-none"> 
 
       {/* navbar on small screens   */} 
       <div className="flex items-center gap-x-4 mx-6 md:hidden">
