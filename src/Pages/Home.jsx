@@ -23,7 +23,7 @@ function Home() {
 
         <div className="flex flex-col w-[90%] md:w-[50%] lg:w-[40%]  gap-y-5 animate-fade-right">
           <h1 className="text-4xl lg:text-5xl font-medium text-center">React Full Stack Developer</h1>
-          <h1 className="text-lg text-slate-700 text-center">Greetings, I'm Munashe Mugonda, a fervent React Full Stack Programmer hailing from Africa.</h1>
+          <h1 className="text-lg text-slate-700 text-justify md:text-center">Greetings, I'm Munashe Mugonda, a fervent React Full Stack Programmer hailing from Africa.</h1>
 
           <div className="flex justify-center gap-x-5">
             <a href="https://github.com/munashex" className="hover:text-blue-600"><BsGithub size={30} /></a>

@@ -35,7 +35,7 @@ const Projects = () => {
               </a>
            </div>
 
-          <h1 className="text-lg text-slate-700 px-3">{project.description}</h1>
+          <h1 className="text-lg text-slate-700 px-3 text-justify">{project.description}</h1>
            <h1 className="py-2"></h1>
         </div>
       ))}
