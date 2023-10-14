@@ -23,7 +23,7 @@ const Projects = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 my-12 md:my-16 justify-items-center">
       {Portfolio.map((project) => (
         <div key={project.name} className="max-w-[90%] animate-fade-left  border shadow-lg  space-y-2 md:max-w-sm lg:max-w-md   mx-auto md:mx-0"> 
-          <img src={project.image}/> 
+          <img src={project.image} loading='lazy'/> 
           <h1 className="font-bold text-xl px-3">{project.name}</h1> 
 
           <div className="flex items-center gap-x-7  px-3 py-1">
@@ -35,7 +35,7 @@ const Projects = () => {
               </a>
            </div>
 
-          <h1 className="text-lg text-slate-700 px-3 text-justify">{project.description}</h1>
+          <h1 className="text-lg text-slate-700 px-3">{project.description}</h1>
            <h1 className="py-2"></h1>
         </div>
       ))}
