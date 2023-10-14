@@ -60,11 +60,12 @@ const navLinks = [
       <div className={`${open ? 'animate-fade-left  flex md:hidden flex-col font-light items-center my-9 gap-y-7 text-2xl' : 'hidden'}`}>
       {navLinks.map((nav) => (
         <div> 
-          <Link to={nav.path} className="font-bold" onClick={() => Toggle(!open)}>
+          <Link to={nav.path} className="font-medium" onClick={() => Toggle(!open)}>
             {nav.url} 
             </Link>
         </div>
        ))}
+      
        </div>
   
        
