@@ -23,8 +23,8 @@ function About() {
   <div className="max-w-[90%] md:max-w-lg lg:max-w-lg mx-auto animate-fade-left animate-delay-500 space-y-4 lg:mx-0">
     <h1 className="text-center text-lg font-bold text-blue-600">ABOUT ME</h1> 
 
-    <h1 className="text-xl font-bold  text-center">An Africa-based Full Stack Developer with a strong commitment to their work.</h1>
-     <h1 className=" text-lg text-slate-700 ">
+    <h1 className="text-xl font-bold  text-start">An Africa-based Full Stack Developer with a strong commitment to their work.</h1>
+     <h1 className=" text-lg text-slate-700 text-center">
 
      As a Full Stack Developer, I bring a strong skill set
       encompassing HTML, CSS, JavaScript, React, Tailwind, SCSS, Express,
