@@ -4,15 +4,21 @@ import { BsGithub } from 'react-icons/bs';
 import { FiInstagram } from 'react-icons/fi';
 import { Logos } from '../data/Logo';
 import Footer from '../components/Footer';
-
-function Home() {
+import { Helmet } from 'react-helmet-async';
+function Home() { 
   return (
    <div>
+  
+  <Helmet>
+    <title>munashe.dev</title>
+  </Helmet>
+
+
      <div className="mb-9">
       <div className="gap-x-20 lg:py-2 lg:gap-x-28 mx-6 flex flex-col gap-y-11 items-center justify-center my-12 md:flex-row-reverse">
 
         <img src={munashe} alt="munashe"
-          className="w-64 lg:w-80 bg-gray-200 border to-white-400 rounded-full lg:rounded-md animate-fade-left animate-delay-700"
+          className="w-64 lg:w-80 bg-gray-200 border-2 to-white-400 rounded-full border-black animate-fade-left animate-delay-700"
         />
 
         <div className="flex flex-col w-[90%] md:w-[50%] lg:w-[40%] animate-fade-right animate-delay-700 gap-y-5">
