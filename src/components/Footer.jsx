@@ -4,7 +4,7 @@ import { FiInstagram } from 'react-icons/fi';
 
 function Footer() {
   return (
-   <div className="bg-gray-700 p-2 text-white mt-8 flex-col space-y-4">
+   <div className="bg-gray-700 p-2 text-white mt-8 flex-col space-y-4 animate-fade-down animate-delay-1000">
    <h1 class="text-sm md:text-lg font-bold text-center">Copyright © 2023. All rights are reserved</h1>
     
    <div className="flex justify-center gap-x-5">
