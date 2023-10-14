@@ -16,7 +16,8 @@ const Projects = () => {
 
     <div className="flex flex-col items-center my-9 gap-y-2">
      <h1 className="text-blue-600 font-bold text-lg md:text-xl">PORTFOLIO</h1> 
-     <h1 className="text-xl md:text-2xl font-medium md:font-bold  text-center">Every project is like a one-of-a-kind puzzle piece in development. 🧩🔨</h1>
+     <h1 className="text-xl md:text-2xl font-medium md:font-bold  text-center">
+      Every project is like a one-of-a-kind puzzle piece in development. 🧩</h1>
     </div>  
 
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 my-12 md:my-16 justify-items-center">

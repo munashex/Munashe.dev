@@ -18,7 +18,7 @@ const navLinks = [
    {url: "Contact", path: "/contact"}]
 
   return (
-    <div className="shadow-lg pb-1 md:shadow-none"> 
+    <div className={`${open ? '': 'shadow-lg pb-1 md:shadow-none'}`}> 
 
       {/* navbar on small screens   */} 
       <div className="flex items-center gap-x-4 mx-6 md:hidden">
@@ -57,10 +57,10 @@ const navLinks = [
 
 
        {/* nav links for sm screens  */}
-      <div className={`${open ? 'animate-fade-down  flex md:hidden flex-col font-light items-center my-9 gap-y-7 text-2xl' : 'hidden'}`}>
+      <div className={`${open ? 'animate-fade-left  flex md:hidden flex-col font-light items-center my-9 gap-y-7 text-2xl' : 'hidden'}`}>
       {navLinks.map((nav) => (
         <div> 
-          <Link to={nav.path}>
+          <Link to={nav.path} className="font-bold" onClick={() => Toggle(!open)}>
             {nav.url} 
             </Link>
         </div>
