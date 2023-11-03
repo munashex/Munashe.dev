@@ -6,9 +6,17 @@ import recipe from '../images/projects/recipe.png';
 import crypto from '../images/projects/cryptocurrency.png';
 import instagram from '../images/projects/instagramClone.png';
 import musicfinder from '../images/projects/musicfinder.png'; 
+import dhehwa from '../images/projects/dhehwagraphics.png'
 
 
 export const Portfolio = [
+  {
+  name: "Dhehwa Graphics",
+  image: dhehwa, 
+  live: "https://dhehwagraphics.vercel.app/", 
+  github: "https://github.com/munashex/Dhehwa-Graphics", 
+  description: "A company specializing in graphic design and printing services, providing a range of products such as business cards, flyers, calendars, NCR books, stickers, labels, postcards, invitations, and canvas prints."
+  },
   {
     name: 'YouTube Clone',
     image: youtube,
