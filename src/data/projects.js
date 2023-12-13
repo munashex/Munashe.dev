@@ -62,7 +62,7 @@ export const Portfolio = [
   {
     name: 'Instagram Clone',
     image: instagram,
-    live: 'https://igwebclone.netlify.app/',
+    live: 'https://igclonee.netlify.app',
     github: "https://github.com/munashex/instagram-backend",
     description: "This social media platform is created with the MERN stack (MongoDB, Express.js, React, Node.js) and closely emulates the fundamental functionalities of Instagram. Users can follow each other, generate and share posts, express their appreciation for posts with likes, and interact by leaving comments on others' posts.",
   },
